@@ -147,3 +147,5 @@ GitHub Actions CI/CD
    |
    +--> Run tests
    +--> Build Docker image
+
+![Architecture Diagram](reports/architecture.png)
