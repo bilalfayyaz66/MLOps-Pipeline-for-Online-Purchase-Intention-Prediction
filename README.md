@@ -33,7 +33,19 @@ The main research problem addressed in this project is:
 > How can an end-to-end MLOps pipeline improve the reproducibility, deployment readiness, and observability of an online purchase intention prediction system?
 
 ---
+## Research Component
 
+This project follows Track-II: Technical Research (Implementation + Improvement).
+
+The research component includes:
+
+clearly defined research problem
+8–10 research references in the IEEE paper
+research questions
+model evaluation metrics
+operational monitoring metrics
+experimental validation
+performance analysis
 ## Research Questions
 
 The project is guided by the following research questions:
@@ -100,6 +112,34 @@ The dataset contains numerical and categorical features, including:
 
 ---
 
+
+## Experimental Analysis Summary
+
+The experiments show that XGBoost performed best among the evaluated models.
+
+Compared with Logistic Regression:
+
+F1-score improved from 0.4814 to 0.6570
+Recall improved from 0.3560 to 0.5942
+ROC-AUC improved from 0.8876 to 0.9305
+
+The deployed API also showed strong operational performance:
+
+API remained available during testing
+Prometheus successfully collected metrics
+Grafana displayed real-time monitoring values
+Average model latency was approximately 7.87 ms
+
+
+## Model Perfromace 
+Model Performance
+Model	                      Accuracy               	      Precision              Recall	              F1-score                	ROC-AUC
+Logistic Regression	        0.8812                       	 0.7432	              0.3560	                0.4814	                0.8876
+Random Forest			        0.8974                          0.7416                0.5183	                0.6102	                0.9194
+XGBoost	                    0.9039	                         0.7346	              0.5942	                0.6570	                0.9305
+
+
+
 ## System Architecture
 
 The project follows an end-to-end MLOps architecture.
@@ -149,3 +189,7 @@ GitHub Actions CI/CD
    +--> Build Docker image
 
 ![Architecture Diagram](reports/architecture.png)
+
+
+
+
