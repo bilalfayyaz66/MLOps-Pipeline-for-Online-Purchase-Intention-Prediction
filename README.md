@@ -39,8 +39,7 @@ This project follows Track-II: Technical Research (Implementation + Improvement)
 
 The research component includes:
 
-clearly defined research problem
-8–10 research references in the IEEE paper
+clearly defined research problem research references in the IEEE paper
 research questions
 model evaluation metrics
 operational monitoring metrics
